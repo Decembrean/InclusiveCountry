@@ -1,0 +1,43 @@
+.header {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #F3F3F3;
+    margin-bottom: 32px;
+}
+.header .blind-support {
+    position: absolute;
+    top: 50px;
+    right: 15px;
+    display: flex;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 32px;
+    color: #000000;
+    cursor: pointer;
+}
+.header .blind-support .eye {
+    margin-right: 15px;
+    width: 49px;
+    height: 32px;
+}
+.header .logo {
+    margin-top: 15px;
+    width: 219px;
+    height: 193px;
+}
+.header .maintitle {
+    height: 85px;
+    width: 953px;
+    margin-bottom: 33px;
+    font-weight: 300;
+    font-size: 40px;
+    line-height: 47px;
+    text-align: center;
+    color: #000000;
+}
+
+
