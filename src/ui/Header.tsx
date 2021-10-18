@@ -12,7 +12,7 @@ import './Header.css'
 const Header: FC = ({ children }) => {
   return (
      <div className="header">
-         <div className="blind-support">
+         <div className="blindSupport">
              <img className="eye" src={eye} alt="Глаз"/>
              <span>Версия для слабовидящих</span>
          </div>

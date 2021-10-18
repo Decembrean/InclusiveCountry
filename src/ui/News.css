@@ -1,0 +1,28 @@
+.newsTitle {
+    font-size: 36px;
+    font-family: 'Jost', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 52px;
+    text-align: center;
+    margin: 0;
+    align-content: center;
+}
+.newsBlock {
+    align-items: center;
+}
+.newsItem {
+    display: inline-block;
+    justify-content: center;
+    margin-bottom: 63px;
+}
+.newsDate {
+    font-size: 18px;
+    font-weight: normal;
+    padding: 2px;
+    margin-right: 20px;
+    border: 2px solid #000;
+    border-radius: 4px;
+    margin-right: 52px;
+}

@@ -4,34 +4,20 @@ import './App.css'
 import Container from './ui/Container'
 import Header from './ui/Header'
 import Goals from './ui/Goals'
+import Projects from './ui/Projects'
+import Project2 from './ui/Project2'
+import News from './ui/News'
+import Footer from './ui/Footer'
 
 function App () {
   return (
     <Container>
-        <Header>
-
-        </Header>
-         <Goals>
-
-         </Goals>
-        {/* <Projects> */}
-
-        {/* </Projects> */}
-        {/* <Project1> */}
-        {/*    */}
-        {/* </Project1> */}
-        {/* <Project2> */}
-
-        {/* </Project2> */}
-        {/* <Project3> */}
-
-        {/* </Project3> */}
-        {/* <News> */}
-
-        {/* </News> */}
-        {/* <Footer> */}
-
-        {/* </Footer> */}
+        <Header />
+        <Goals />
+        <Projects />
+        <Project2 />
+        <News />
+        <Footer />
     </Container>
   )
 }
