@@ -1,0 +1,12 @@
+.container {
+    width: 1050px;
+    margin: 0 auto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 23px;
+    font-family: 'Roboto', sans-serif;
+    max-width: 1200px;
+    margin: auto;
+    background: #FFFFFF;
+}

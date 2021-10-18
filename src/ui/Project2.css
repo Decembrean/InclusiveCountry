@@ -1,0 +1,27 @@
+.project2 {
+
+}
+.project2 .title {
+    font-size: 36px;
+    font-family: 'Jost', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 52px;
+    text-align: center;
+    margin: 0;
+}
+.project2 .movies {
+    display: flex;
+    justify-content: space-between;
+}
+.project2 .movies .movieItem {
+    width: calc(100%/3);
+    padding-right: 50px;
+}
+.movie-item img {
+    width: 100%;
+}
+.movie-item:last-child {
+    padding-right: 0;
+}
